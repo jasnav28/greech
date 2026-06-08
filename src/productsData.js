@@ -1,26 +1,29 @@
-export const GAZETTE = 'SO:3922(E), Dated: 12th September ,2024';
+export const GAZETTE = '16th February, 2026 S.O. 876(E)';
 
 export const PRODUCTS = [
   { 
-    brand: 'HI POWER', 
-    specification: '(2) Potassium Humate 49% (Powder)', 
-    category: 'Humic Acid and Fulvic Acid and their derivatives',
-    crops: ['Paddy'], 
-    dosage: ['One soil Application at 1 kg/ha'], 
-    gazette: 'S.O. 3922(E), DATED 12-09-2024', 
+    brand: 'BLACK DIAMOND', 
+    specification: 'Potassium Humate 49% (Powder)', 
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
+    crops: ['Paddy', 'Tomato'], 
+    dosage: ['Paddy One soil application at 1kg/ha', 'Tomato One soil application at 1kg/ha'], 
+    gazette: '16th February, 2026 S.O. 876(E)', 
     composition: [
-      '(i) Humic Acid per cent. By weight minimum 21', 
-      '(ii) pH (1% aqueous solution) 6.0-8.0'
+      '(i) Potassium humate (Source: Leonardite) per cent. by weight, minimum 49', 
+      '(ii) Silwet power (adjuvant) per cent. by weight, maximum 0.5',
+      '(iii) Carboxymethyl cellulose per cent. by weight, maximum 1.0',
+      '(iv) Maltodextrin powder per cent. by weight QS',
+      '(v) Total (per cent.) 100'
     ] 
   },
 ];
 
 export const SLUG_TO_BRAND = {
-  'HI POWER': 'HI POWER',
-  'HI%20POWER': 'HI POWER',
-  'hi power': 'HI POWER',
-  'HIPOWER': 'HI POWER',
-  'hipower': 'HI POWER',
+  'BLACK DIAMOND': 'BLACK DIAMOND',
+  'BLACK%20DIAMOND': 'BLACK DIAMOND',
+  'black diamond': 'BLACK DIAMOND',
+  'BLACKDIAMOND': 'BLACK DIAMOND',
+  'blackdiamond': 'BLACK DIAMOND',
 };
 
 export function findProductBySlug(slug) {
