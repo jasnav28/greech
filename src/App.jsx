@@ -23,7 +23,6 @@ export default function App() {
             className="max-h-screen w-auto"
             src="/intro take 4.mp4"
             autoPlay
-            muted
             playsInline
             preload="auto"
             poster="/new.jpeg"
@@ -175,25 +174,15 @@ export default function App() {
               <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[#e8d8a6]/25 text-[#e8d8a6] mr-3 shadow-inner">
                 <span className="text-lg">🏭</span>
               </div>
-              <div className="flex-1 space-y-4">
+              <div className="flex-1">
                 <div>
-                  <div className="text-[#d9c98f] text-sm">Manufactured By:</div>
-                  <div className="text-white/90 text-sm sm:text-base font-semibold mt-1">Greenwell Biotech,</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">Survey No.91/1,91/2,Plot No.3,4,5,</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">Sunlight Industrial Zone-4,Village-Ribada,</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">Ta-Gondal,Dist-Rajkot,Gujarat-360311</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-1">Phone: 9723602310</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">E-Mail: greenwellbio@gmail.com</div>
-                </div>
-                <div className="pt-4 border-t border-white/20">
-                  <div className="text-[#d9c98f] text-sm">Marketed By:</div>
-                  <div className="text-white/90 text-sm sm:text-base font-semibold mt-1">Greenwell Biotech,</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">C.T.S.No.252,Near Banashankari Devi Main Road,</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">Near Muddebihal Sub Post Office,</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">Banashankari Nagar,Muddebihal,</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">Vijayapura District,Karnataka-586212</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-1">Phone: 9723602310</div>
-                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">E-Mail: greenwellbio@gmail.com</div>
+                  <div className="text-[#d9c98f] text-sm">Manufactured And Marketed By:</div>
+                  <div className="text-white/90 text-sm sm:text-base font-semibold mt-1">Green Chemical,</div>
+                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">No.20/2/415,Navali Road,</div>
+                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">Behind Rice Technology Park,</div>
+                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">Adapura Village,Kanakagiri Taluk,</div>
+                  <div className="text-white/90 text-xs sm:text-sm mt-0.5">Koppal District,Karnataka-583229,</div>
+                  <div className="text-white/90 text-xs sm:text-sm mt-1">E-mail: greenschime2016@gmail.com</div>
                 </div>
               </div>
             </div>
@@ -205,7 +194,7 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Customer Care</div>
-                <div className="text-white/90 text-sm sm:text-base">+91 9723602310</div>
+                <div className="text-white/90 text-sm sm:text-base">8317348860</div>
               </div>
             </div>
           </StarBorder>
