@@ -31,19 +31,15 @@ export const PRODUCTS = [
   },
   {
     brand: 'Flower',
-    specification: 'Humates (12.5%) (Liquid)',
+    specification: 'Humates and Fulvates - 22%',
     category: 'Humic Acid and Fulvic Acid and their Derivatives',
-    crops: ['Green gram'],
-    dosage: ['Two soil applications at 5 litre/ha'],
-    gazette: '16th February, 2026 S.O. 876(E).',
+    crops: ['Ground nut'],
+    dosage: ['Two soil applications at 1.25 l/ha.'],
+    gazette: '12th September, 2024 S.O. 3922(E)',
     composition: [
-      '(i) Humic acid (Source: American Leonardite) per cent. by weight, minimum 10.0',
-      '(ii) Fulvic acid (Source: American Leonardite) per cent. by weight, minimum 2.5',
-      '(iii) Tetrapotassium pyrophosphate per cent. by weight, minimum 0.9',
-      '(iv) Potassium hydroxide 50% solution per cent. by weight, minimum 10.0',
-      '(v) Alcoxylated fatty acid ester on vegetable base per cent. by weight, minimum 0.7',
-      '(vi) Water per cent. by weight QS',
-      '(vii) Total (per cent.) 100'
+      '(i) Total water soluble humates and fulvates pe rcent. weight by volume, minimum 22',
+      '(ii) pH (1:5 aqueous solution) 9.0 (min)',
+      '(iii) Specific gravity 1.05'
     ]
   },
   {
